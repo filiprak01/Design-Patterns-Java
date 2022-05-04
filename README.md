@@ -14,5 +14,5 @@ Iterator consists of two custom iterators for two custom vectors:
 - SparseVector - vector consists of length and List of <Integer,Double> pairs where Integer tells about where in the Vector Double value is positioned.
 Iterators consist of three methods which allows resetting, getting current value and moving to next element. In the constructor of the RangeVectorIterator user defines on how many segents user wants to separate vector.
 Moreover there are two decorators:
-- NormaliseVector - decorated Iterator which normalise the vectors.
+- NormaliseIterator - decorated Iterator which normalise the vectors.
 - HadamardIterator - decorated Iterator which iterates through Hadamard product of two Vectors
